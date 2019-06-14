@@ -244,3 +244,49 @@ function GoBack() {
     document.getElementById("Fight").style.visibility = "visible";
     document.getElementById("MorMs").style.visibility = "hidden";
 }
+
+function Vitadd() {
+    if (localStorage.vitality === 1000) {
+        return;
+    }
+    if (localStorage.statP >= 1) {
+        localStorage.vitality = parseInt(localStorage.vitality) + parseInt(5);
+        localStorage.statP = parseInt(localStorage.statP) - parseInt(1);
+        localStorage.maxhealth = parseInt(parseInt(localStorage.vitality * .01) + parseInt(localStorage.endurance / 2) + parseInt(localStorage.L / 2));
+        localStorage.health = localStorage.maxhealth;
+        document.getElementById("health").innerHTML = "Health: " + localStorage.health + " / " + localStorage.maxhealth;
+        document.getElementById("vitality").innerHTML = "Vitality: " + localStorage.vitality;
+        
+    }
+}
+function Manadd() {
+    if (localStorage.statP >= "1")
+    if (localStorage.mana === "1000")
+        return;
+    else {
+        localStorage.maxmana = parseInt(localStorage.maxmana) + parseInt(5);
+        localStorage.statP = parseInt(localStorage.statP) - parseInt(1);
+        load();
+    }
+        
+}
+function Strengthadd() {
+    if (localStorage.statP >= 1) {
+        localStorage.strength = parseInt(localStorage.strength) + parseInt(5);
+        localStorage.statP = parseInt(parseInt(localStorage.statP) - parseInt(1));
+        localStorage.attack = parseInt(Math.floor(localStorage.strength) + parseInt(localStorage.L));
+        document.getElementById("strength").innerHTML = "Strength: " + localStorage.strength
+    }
+}
+    
+function sleep() {
+    localStorage.health = localStorage.maxhealth
+    if (localStorage.health < localStorage.maxhealth) {
+        localStorage.health = localStorage.maxhealth
+        location.reload()
+    }
+    else {
+        location.reload()
+    }
+}
+
