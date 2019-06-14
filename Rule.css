@@ -1,0 +1,134 @@
+section { 
+    display: hidden;
+}
+#button {
+      font: bold 11px Arial;
+  background-color: #EEEEEE;
+  color: #333333;
+  padding: 2px 6px 2px 6px;
+  border-top: 1px solid #CCCCCC;
+  border-right: 1px solid #333333;
+  border-bottom: 1px solid #333333;
+  border-left: 1px solid #CCCCCC;
+}
+
+#menubody {
+    background-color:rgb(5, 5, 5); 
+}
+#menubdy {
+    background-color:rgb(5, 5, 5);
+}
+#adventure {
+    color:White;
+}
+#NSelection {
+    color:White;
+}
+#tutorial {
+    color:White;
+}
+a {
+  font: bold 11px Arial;
+  background-color: #EEEEEE;
+  color: #333333;
+  padding: 2px 6px 2px 6px;
+  border-top: 1px solid #CCCCCC;
+  border-right: 1px solid #333333;
+  border-bottom: 1px solid #333333;
+  border-left: 1px solid #CCCCCC;
+}
+#him {
+  color:white;
+}
+#mim {
+  color:white;
+}
+#kim {
+  color:white;
+}
+#xp {
+    color:white;
+}
+.equipm {
+    overflow-x: hidden;
+    overflow-y: auto;
+    height:100px;
+    width:300px;
+    
+ }
+#level  {
+    text-align:center;
+
+}
+
+#Stats {
+    background-color:red;
+    width: 700px;
+    padding: 25px;
+    margin: 25px;
+    height:750px;
+       margin-left:auto;
+    margin-right:auto;
+}
+.name {
+    background-color:red;
+    width: 700px;
+    padding: 25px;
+    margin: 25px;
+    height:750px;
+    margin-left:auto;
+    margin-right:auto;
+}
+.statsredo {
+    text-align:left;
+}
+.statslevelup {
+    text-align: right;
+}
+#Skills {
+    background-color:red;
+    width: 350px;
+    padding: 25px;
+    margin: 25px;
+    height:400px;
+    overflow-y:auto;
+    overflow-x:hidden;
+}
+#Adventurer {
+    background-color:white;
+    width: 350px;
+    padding: 25px;
+    margin: 25px;
+    height:400px;
+}
+#WWYD {
+    color:white;
+}
+#Middle {
+    visibility:hidden;
+    text-align:center;
+    margin:auto;
+    padding:25px;
+    border: 3px solid;
+    width:200px;
+    background-color: rgb(234, 51, 24);
+}
+.overflow-div {
+    padding:20px 10px 10px 20px;
+    overflow-x:none;
+    overflow-y:scroll;
+}
+#FightScren {
+}
+#MorMs {
+    visibility:hidden;
+}
+#Fight {
+    float:right;
+    margin:2px;
+}
+#Flee
+{
+    margin:2px;
+}
+
